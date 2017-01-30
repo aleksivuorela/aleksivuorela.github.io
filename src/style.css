@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+html, *, h1 {
+	font-family: "Raleway";
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+body a {
+	color: #94C7FF;
+}
+
+body a:hover {
+	color: #489FFF;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+
+.contact ul {
+	list-style: none;
+	margin-left: 0;
+	margin-bottom: 80px;
+}
+
+.contact ul li {
+	display: inline-block;
+}
+
+.contact a i {
+	display: inline-block;
+	font-size: 32px;
+	padding: 0 10px;
+}
