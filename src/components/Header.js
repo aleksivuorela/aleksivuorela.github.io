@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router'
+import { Link, IndexLink } from 'react-router'
 
 var propsObj = {
   socialUrls: {
@@ -16,7 +16,7 @@ class Header extends Component {
 	<nav id='nav' className='navbar navbar-default navbar-static-top'>
 		<div className='container'>
 			<ul className='nav navbar-nav'>
-				<li class='active'><Link to='/home' className='nav-button'>Home</Link></li>
+				<li class='active'><IndexLink to='/' className='nav-button'>Home</IndexLink></li>
 				<li><Link to='/portfolio' className='nav-button'>Portfolio</Link></li>
 				<li><Link to='/cv' className='nav-button'>CV</Link></li>
 				<li><a target='_blank' href={this.props.socialUrls.github}>Github</a></li>

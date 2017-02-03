@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router'
+import { Route, IndexRoute } from 'react-router'
 
 import App from '../App';
 import Home from '../views/Home';
@@ -9,7 +9,7 @@ import NotFound from '../views/NotFound';
 
 let routes = (
 	<Route name="app" path="/" component={App}>
-	  <Route path="home" component={Home} />
+	  <IndexRoute component={Home} />
 	  <Route path="portfolio" component={Portfolio} />
 	  <Route path="cv" component={CV} />
 	  <Route path="*" component={NotFound}/>
