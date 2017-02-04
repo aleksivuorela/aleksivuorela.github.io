@@ -4,7 +4,7 @@ body {
 	background: #FAFAFA;;
 	font-family: 'Ubuntu';
 	margin: 0;
-	padding: 0;
+	padding: 0 0 100px 0;
 	color: #150000;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
 
 .navbar-nav {
@@ -24,7 +24,6 @@ body {
 }
 
 .navbar-nav > li {
-	color: #1DB7A9;
 	display: inline-block;
 	float: none;
 }
@@ -33,19 +32,24 @@ header {
 	margin: 2em 0 2em 0;
 }
 
-hr {
+.shorthr {
 	color: #eee;
 	width: 30%;
 }
 
 h1 {
-	text-align: center;
 	font-size: 4em;
 }
 
 h2 {
-	text-align: center;
 	font-size: 1.8em;
+}
+
+.center {
+	text-align: center;
+}
+
+.title {
 	color: #C0C0C9;
 }
 
@@ -64,4 +68,22 @@ p {
 	color: #80cb9e;	
 	font-size: 5.5em;
 	margin: 10px;
+}
+
+#footer {
+	margin-top: 15px;
+}
+
+.tag-list .label {
+	margin: 2px;
+}
+
+.tag-list a {
+	margin-right: 12px;
+}
+
+.tag {
+	font-size: 1.0em;
+	color: #1DB7A9;	
+	background-color: #D9EAD3;
 }

@@ -14,10 +14,10 @@ class Header extends Component {
 
   render() {
 	return (
-	<nav id='nav' className='navbar navbar-default navbar-static-top'>
+	<nav className='navbar navbar-default navbar-static-top'>
 		<div className='container'>
 			<ul className='nav navbar-nav'>
-				<li class='active'><IndexLink to='/' className='nav-button'>Home</IndexLink></li>
+				<li><IndexLink to='/' className='nav-button'>Home</IndexLink></li>
 				<li><Link to='/portfolio' className='nav-button'>Portfolio</Link></li>
 				<li><a target='_blank' href={this.props.urls.cv}>CV</a></li>
 				<li><a target='_blank' href={this.props.urls.github}>Github</a></li>
