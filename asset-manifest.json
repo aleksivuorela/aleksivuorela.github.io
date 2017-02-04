@@ -1,12 +1,13 @@
 {
-  "main.css": "static/css/main.c65aa588.css",
-  "main.css.map": "static/css/main.c65aa588.css.map",
-  "main.js": "static/js/main.ffccbddd.js",
-  "main.js.map": "static/js/main.ffccbddd.js.map",
+  "main.css": "static/css/main.e895a602.css",
+  "main.css.map": "static/css/main.e895a602.css.map",
+  "main.js": "static/js/main.f6ac6820.js",
+  "main.js.map": "static/js/main.f6ac6820.js.map",
   "static\\media\\glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static\\media\\glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
   "static\\media\\glyphicons-halflings-regular.ttf": "static/media/glyphicons-halflings-regular.e18bbf61.ttf",
   "static\\media\\glyphicons-halflings-regular.woff": "static/media/glyphicons-halflings-regular.fa277232.woff",
   "static\\media\\glyphicons-halflings-regular.woff2": "static/media/glyphicons-halflings-regular.448c34a5.woff2",
+  "static\\media\\iotstack.png": "static/media/iotstack.7570093f.png",
   "static\\media\\myPic.jpg": "static/media/myPic.d9a2e79b.jpg"
 }
