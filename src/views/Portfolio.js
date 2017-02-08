@@ -31,7 +31,6 @@ class Portfolio extends Component {
 					<span className="label label-default tag">Node.js</span>
 					<span className="label label-default tag">AWS</span>
 					<span className="label label-default tag">Raspberry Pi</span>
-					<span className="label label-default tag">Bash</span>
 				</div>			
 				<p>Project that I'm currently working on untill 27.2.2017. Building IoT stack for <strong><i>collecting</i></strong>, <strong><i>storing</i></strong> and <strong><i>visualizing</i></strong> time-series data. My role in the project is building front- and backend for the application.</p>
 				<p>I'm building the frontend with React.js for the first time. For that I've studied Webpack, ES6 and Babel. I've also dabbled with some AWS stuff:
@@ -52,7 +51,20 @@ class Portfolio extends Component {
 
 		<div className="row">
 			<div className="col-md-7">
-					<img className="img-responsive" src="https://raw.githubusercontent.com/vuoale/NodeJS-Multiplayer/master/img/arkkitehtuuri.jpg" alt=""/>
+					<img className="img-responsive" src="http://placehold.it/700x300" alt=""/>
+			</div>
+			<div className="col-md-5">
+				<h2>Atlas</h2>
+				<h4>Coming soon...</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
+			</div>
+		</div>
+
+		<hr/>
+
+		<div className="row">
+			<div className="col-md-7">
+				<img className="img-responsive" src="https://raw.githubusercontent.com/vuoale/NodeJS-Multiplayer/master/img/arkkitehtuuri.jpg" alt=""/>
 			</div>
 			<div className="col-md-5">
 				<h2>Node.js Multiplayer</h2>
@@ -68,19 +80,6 @@ class Portfolio extends Component {
 					<a href="https://github.com/aleksivuorela/NodeJS-Multiplayer"><i className="devicon-github-plain"></i> Source</a>
 					<a href="https://github.com/aleksivuorela/NodeJS-Multiplayer/wiki"><i className="devicon-github-plain"></i> Wiki</a>
 				</div>
-			</div>
-		</div>
-
-		<hr/>
-
-		<div className="row">
-			<div className="col-md-7">
-					<img className="img-responsive" src="http://placehold.it/700x300" alt=""/>
-			</div>
-			<div className="col-md-5">
-				<h2>Atlas</h2>
-				<h4>Coming soon...</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
 			</div>
 		</div>
 

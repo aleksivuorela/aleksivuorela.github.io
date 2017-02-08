@@ -11,13 +11,16 @@ class Footer extends Component {
 
   render() {
 	return (
-		<div className='navbar navbar-default navbar-fixed-bottom'>
+		<nav className='navbar navbar-default navbar-fixed-bottom'>
 			<div className='container'>
 				<ul id='footer' className='nav navbar-nav'>
-					<li>Contact me at <strong>{this.props.contactInfo.email}</strong> or call <strong>{this.props.contactInfo.phone}</strong></li>
+					<li>
+						<span className="glyphicon glyphicon-envelope" style={{ padding: '0 5px 0 0' }}></span>{this.props.contactInfo.email}
+						<span className="glyphicon glyphicon-earphone" style={{ padding: '0 5px 0 10px' }}></span>{this.props.contactInfo.phone}
+					</li>
 				</ul>
 			</div>
-		</div>
+		</nav>
 	);
   }
 }
