@@ -5,7 +5,7 @@ class NotFound extends Component {
   render() {	
 	return (
 	<div>
-		<h2>Nothing here...</h2>
+		<h2 className='center'>Nothing here...</h2>
 	</div>
 	);
   }

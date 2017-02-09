@@ -1,13 +1,5 @@
 import React, { Component } from 'react';
 
-var propsObj = {
-  project: {
-	name: 'Atlas',
-	desc: 'Project management tool',
-	img: require('../assets/images/myPic.jpg')
-  }
-};
-
 class Portfolio extends Component {
 
   render() {  	
@@ -275,5 +267,4 @@ class Portfolio extends Component {
   }
 }
 
-Portfolio.defaultProps = propsObj;
 export default Portfolio;
