@@ -45,6 +45,13 @@ h2 {
 	font-size: 1.8em;
 }
 
+h3 {
+	font-size: 2em;
+	color: #1DB7A9;	
+	display: inline;
+	background-color: #D9EAD3;
+}
+
 .center {
 	text-align: center;
 }
@@ -53,11 +60,8 @@ h2 {
 	color: #C0C0C9;
 }
 
-h3 {
-	font-size: 2em;
-	color: #1DB7A9;	
-	display: inline;
-	background-color: #D9EAD3;
+.page-header {
+	margin-top: 10px;
 }
 
 p {
@@ -67,7 +71,8 @@ p {
 .devicon {
 	color: #80cb9e;	
 	font-size: 5.5em;
-	margin: 10px;
+	margin-bottom: 10px;
+	cursor: pointer;
 }
 
 #footer {
