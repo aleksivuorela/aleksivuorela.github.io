@@ -12,7 +12,7 @@ class Portfolio extends Component {
 		</div>
 		<div className="row">
 			<div className="col-md-6">
-				<img className="img-responsive" src={require('../assets/images/iotstack.png')} alt="" />
+				<img className="img-responsive" src={require('../assets/images/stack.svg')} alt="" />
 			</div>
 			<div className="col-md-6">
 				<div className="container-fluid">
@@ -28,12 +28,12 @@ class Portfolio extends Component {
 						</div>
 					</div>
 					<div className="row">
-						<p>Project that I'm currently working on untill 27.2.2017. We're building IoT stack for collecting, storing and visualizing time-series data. Our employer is Digia. My role in the project is building front- and backend for the application. The application can display data from the device and also send data to the device, so the communication through AWS cloud is two-way.</p>
-						<p>I'm building the frontend with React.js for the first time. For that I've studied <strong><i>Webpack</i></strong>, <strong><i>ES6</i></strong> and <strong><i>Babel</i></strong>. The backend I've built with Node.js and Express.js. I've also dabbled with some AWS stuff:</p>
+						<p>We built IoT stack for collecting, storing and visualizing time-series data as a team of five. Our employer was Digia. My role in the project was building front- and backend for the application. The application can display data from the device and also send data to the device, so the communication through AWS cloud is two-way.</p>
+						<p>I built the frontend with React.js for the first time. For that I studied <strong><i>Webpack</i></strong>, <strong><i>ES6</i></strong> and <strong><i>Babel</i></strong>. The backend (API) I built with Node.js & Express.js and the communication between front- and backend with <strong>Fetch</strong>. I also dabbled with some AWS stuff:</p>
 						<div style={{ marginTop: '-15px', marginBottom: '20px' }}>
 							<ul style={{ margin: '10px 0 0 0' }}>
 								<li>sending data from application to device and vice versa with AWS IoT SDK</li> 
-								<li>set up CI/CD pipeline with CodePipeline, Github and CodeDeploy</li>
+								<li>set up CI/CD pipeline with AWS CodePipeline, Github, AWS CodeBuild and AWS CodeDeploy</li>
 								<li>bash scripts to setup/start Node.js automatically on EC2 instance</li>
 							</ul>
 						</div>
