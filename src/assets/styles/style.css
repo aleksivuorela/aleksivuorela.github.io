@@ -92,3 +92,35 @@ p {
 	color: #1DB7A9;	
 	background-color: #D9EAD3;
 }
+
+.carousel-control.left, .carousel-control.right {
+	background-image: none !important;
+	filter: none !important;
+}
+
+.carousel-control {
+	left: -24px;
+}
+
+.carousel-control.right {	
+	right: -24px;
+}
+
+.carousel-indicators {
+	right: 50%;
+	top: 300px;
+	margin-right: -19px;
+}
+
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+
+.carousel-indicators .active {
+	background: #808080;
+}
+
+.carousel-item {
+	width: 100% !important;
+	height: 300px !important;
+}

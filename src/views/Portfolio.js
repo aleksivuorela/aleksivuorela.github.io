@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Carousel, Image } from 'react-bootstrap';
 
 class Portfolio extends Component {
 
@@ -12,7 +13,23 @@ class Portfolio extends Component {
 		</div>
 		<div className="row">
 			<div className="col-md-6">
-				<img className="img-responsive" src={require('../assets/images/stack.svg')} alt="" />
+				<Carousel interval="1000000">
+					<Carousel.Item>
+						<iframe className="carousel-item thumbnail" src="https://www.youtube.com/embed/2pQMaOMpoz8" frameborder="0" allowfullscreen style={{ margin: 0, padding: 0 }}></iframe>
+					</Carousel.Item>
+					<Carousel.Item>
+						<Image className="carousel-item" src={require('../assets/images/feeder_01.jpg')} thumbnail/>
+					</Carousel.Item>
+					<Carousel.Item>
+						<Image className="carousel-item" src={require('../assets/images/feeder_02.jpg')} thumbnail/>
+					</Carousel.Item>
+					<Carousel.Item>
+						<Image className="carousel-item" src={require('../assets/images/feeder_03.jpg')} thumbnail/>
+					</Carousel.Item>
+					<Carousel.Item>
+						<Image className="carousel-item" src={require('../assets/images/feeder_04.jpg')} thumbnail/>
+					</Carousel.Item>
+        		</Carousel>
 			</div>
 			<div className="col-md-6">
 				<div className="container-fluid">
@@ -52,7 +69,7 @@ class Portfolio extends Component {
 
 		<div className="row">
 			<div className="col-md-6">
-				<img className="img-responsive" src={require('../assets/images/atlas.png')} alt=""/>
+				<Image className="carousel-item" src={require('../assets/images/atlas_01.png')} thumbnail/>
 			</div>
 			<div className="col-md-6">
 				<div className="container-fluid">
@@ -84,7 +101,7 @@ class Portfolio extends Component {
 
 		<div className="row">
 			<div className="col-md-6">
-				<img className="img-responsive" src={require('../assets/images/mysli.jpg')} alt=""/>
+				<Image className="carousel-item" src={require('../assets/images/mysli.jpg')} thumbnail/>
 			</div>
 			<div className="col-md-6">
 				<div className="container-fluid">
@@ -144,7 +161,7 @@ class Portfolio extends Component {
 
 		<div className="row">
 			<div className="col-md-6">
-				<img className="img-responsive" src={require('../assets/images/nodejs.jpg')} alt=""/>
+				<Image className="carousel-item" src={require('../assets/images/nodejs.jpg')} thumbnail/>				
 			</div>
 			<div className="col-md-6">
 				<div className="container-fluid">
@@ -175,7 +192,7 @@ class Portfolio extends Component {
 
 		<div className="row">
 			<div className="col-md-6">
-				<img className="img-responsive" src={require('../assets/images/tilemap.png')} alt=""/>
+				<Image className="carousel-item" src={require('../assets/images/tilemap.png')} thumbnail/>				
 			</div>
 			<div className="col-md-6">
 				<div className="container-fluid">
@@ -238,7 +255,7 @@ class Portfolio extends Component {
 
 		<div className="row">
 			<div className="col-md-6">
-				<img className="img-responsive" src={require('../assets/images/portfolio.png')} alt=""/>
+				<Image className="carousel-item" src={require('../assets/images/portfolio.png')} thumbnail/>				
 			</div>
 			<div className="col-md-6">
 				<div className="container-fluid">

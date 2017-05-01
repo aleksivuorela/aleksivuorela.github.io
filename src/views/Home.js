@@ -19,9 +19,9 @@ class Home extends Component {
 			</div>
 			<div className="col-md-8 col-md-pull-4">
 				<h3>Who am I?</h3>
-				<p>A 22-year-old dude. Passionate about learning the <strong><i>latest technologies</i></strong> and writing <strong><i>elegant code</i></strong>. Good at finding simple solutions to complex problems. I also like to develop games as a hobby.</p>
+				<p>A 22-year-old dude. Passionate about learning the <strong><i>latest technologies</i></strong> and writing <strong><i>elegant code</i></strong>. Good at finding simple solutions to complex problems. I also like to develop (and play) games as a hobby.</p>
 				<h3>What am I up to?</h3>
-				<p>Currently having a blast working on a IoT project with React.js and AWS for the first time! Doing my 3rd year studies in software engineering. Looking for an internship position. If you're looking for a developer, consider hiring me!</p>
+				<p>I'm currently working full-time as software developer at <a target='_blank' href="http://meiko.fi/">Meiko Oy</a>. My work is mainly front-end development with React. I'm also doing my 3rd year studies in software engineering at JAMK.</p>
 				<h3>Technologies I build with:</h3>
 				<div style={{ margin: '30px 0 0 -20px' }}>
 					<div className="col-sm-2 col-xs-3">
