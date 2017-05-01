@@ -1,9 +1,13 @@
 {
-  "main.css": "static/css/main.797bd27a.css",
-  "main.css.map": "static/css/main.797bd27a.css.map",
-  "main.js": "static/js/main.0d5407ab.js",
-  "main.js.map": "static/js/main.0d5407ab.js.map",
-  "static/media/atlas.png": "static/media/atlas.f6c37073.png",
+  "main.css": "static/css/main.3d444e31.css",
+  "main.css.map": "static/css/main.3d444e31.css.map",
+  "main.js": "static/js/main.a3b9133d.js",
+  "main.js.map": "static/js/main.a3b9133d.js.map",
+  "static/media/atlas_01.png": "static/media/atlas_01.f6c37073.png",
+  "static/media/feeder_01.jpg": "static/media/feeder_01.37d49be4.jpg",
+  "static/media/feeder_02.jpg": "static/media/feeder_02.ce86462b.jpg",
+  "static/media/feeder_03.jpg": "static/media/feeder_03.58471264.jpg",
+  "static/media/feeder_04.jpg": "static/media/feeder_04.fc2820cb.jpg",
   "static/media/ghost.mp4": "static/media/ghost.867bf628.mp4",
   "static/media/glyphicons-halflings-regular.eot": "static/media/glyphicons-halflings-regular.f4769f9b.eot",
   "static/media/glyphicons-halflings-regular.svg": "static/media/glyphicons-halflings-regular.89889688.svg",
@@ -14,6 +18,5 @@
   "static/media/mysli.jpg": "static/media/mysli.72110427.jpg",
   "static/media/nodejs.jpg": "static/media/nodejs.c260c144.jpg",
   "static/media/portfolio.png": "static/media/portfolio.1db4907e.png",
-  "static/media/stack.svg": "static/media/stack.95112cc4.svg",
   "static/media/tilemap.png": "static/media/tilemap.1f133d56.png"
 }
