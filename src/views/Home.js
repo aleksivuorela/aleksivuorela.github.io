@@ -28,9 +28,6 @@ class Home extends Component {
 						<i className="devicon devicon-react-original center-block" title="React.js"></i>
 					</div>
 					<div className="col-sm-2 col-xs-3">
-						<i className="devicon devicon-javascript-plain center-block" title="JavaScript"></i>
-					</div>
-					<div className="col-sm-2 col-xs-3">
 						<i className="devicon devicon-csharp-plain center-block" title="C#"></i>
 					</div>
 					<div className="col-sm-2 col-xs-3">
@@ -44,6 +41,9 @@ class Home extends Component {
 					</div>
 					<div className="col-sm-2 col-xs-3">
 						<i className="devicon devicon-nodejs-plain-wordmark center-block" title="Node.js"></i>
+					</div>
+					<div className="col-sm-2 col-xs-3">
+						<i className="devicon devicon-javascript-plain center-block" title="JavaScript"></i>
 					</div>
 					<div className="col-sm-2 col-xs-3">
 						<i className="devicon devicon-html5-plain center-block" title="HTML"></i>
