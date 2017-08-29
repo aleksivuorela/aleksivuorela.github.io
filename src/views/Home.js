@@ -21,7 +21,7 @@ class Home extends Component {
 				<h3>Who am I?</h3>
 				<p>A 22-year-old dude. Passionate about learning the latest technologies and writing elegant code. Good at finding simple solutions to complex problems. I also like to develop (and play) games as a hobby.</p>
 				<h3>What am I up to?</h3>
-				<p>I'm currently working full-time as Software Developer at <a target='_blank' href="http://meiko.fi/">Meiko Oy</a>. My work is mainly front-end development with React, Redux & Redux-Saga and mobile development with React Native. I'm also doing my final year of studies in software engineering at JAMK.</p>
+				<p>I'm currently working full-time as software developer at <a target='_blank' href="http://meiko.fi/">Meiko Oy</a>. My work is mainly front-end development with React, Redux & Redux-Saga and mobile development with React Native. I'm also doing my final year of studies in software engineering at JAMK.</p>
 				<h3>Technologies I build with:</h3>
 				<div style={{ margin: '30px 0 0 -20px' }}>
 					<div className="col-sm-2 col-xs-3">
