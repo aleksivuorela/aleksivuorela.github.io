@@ -19,31 +19,25 @@ class Home extends Component {
 			</div>
 			<div className="col-md-8 col-md-pull-4">
 				<h3>Who am I?</h3>
-				<p>A 22-year-old dude. Passionate about learning the <strong><i>latest technologies</i></strong> and writing <strong><i>elegant code</i></strong>. Good at finding simple solutions to complex problems. I also like to develop (and play) games as a hobby.</p>
+				<p>A 22-year-old dude. Passionate about learning the latest technologies and writing elegant cod. Good at finding simple solutions to complex problems. I also like to develop (and play) games as a hobby.</p>
 				<h3>What am I up to?</h3>
-				<p>I'm currently working full-time as software developer at <a target='_blank' href="http://meiko.fi/">Meiko Oy</a>. My work is mainly front-end development with <strong>React</strong> and <strong>Redux</strong>. I'm also doing my 3rd year studies in software engineering at JAMK.</p>
+				<p>I'm currently working full-time as Software Developer at <a target='_blank' href="http://meiko.fi/">Meiko Oy</a>. My work is mainly front-end development with React, Redux & Redux-Saga and mobile development with React Native. I'm also doing my final year of studies in software engineering at JAMK.</p>
 				<h3>Technologies I build with:</h3>
 				<div style={{ margin: '30px 0 0 -20px' }}>
 					<div className="col-sm-2 col-xs-3">
-						<i className="devicon devicon-csharp-plain center-block" title="C#"></i>
-					</div>
-					<div className="col-sm-2 col-xs-3">
-						<i className="devicon devicon-cplusplus-plain center-block" title="C++"></i>
-					</div>
-					<div className="col-sm-2 col-xs-3">
-						<i className="devicon devicon-java-plain center-block" title="Java"></i>
+						<i className="devicon devicon-react-original center-block" title="React.js"></i>
 					</div>
 					<div className="col-sm-2 col-xs-3">
 						<i className="devicon devicon-javascript-plain center-block" title="JavaScript"></i>
 					</div>
 					<div className="col-sm-2 col-xs-3">
-						<i className="devicon devicon-html5-plain center-block" title="HTML"></i>
-					</div>
-					<div className="col-sm-2 col-xs-3">
-						<i className="devicon devicon-css3-plain center-block" title="CSS"></i>
+						<i className="devicon devicon-csharp-plain center-block" title="C#"></i>
 					</div>
 					<div className="col-sm-2 col-xs-3">
 						<i className="devicon devicon-dot-net-plain-wordmark center-block" title=".NET"></i>
+					</div>
+					<div className="col-sm-2 col-xs-3">
+						<i className="devicon devicon-java-plain center-block" title="Java"></i>
 					</div>
 					<div className="col-sm-2 col-xs-3">		
 						<i className="devicon devicon-php-plain center-block" title="PHP"></i>
@@ -52,7 +46,13 @@ class Home extends Component {
 						<i className="devicon devicon-nodejs-plain-wordmark center-block" title="Node.js"></i>
 					</div>
 					<div className="col-sm-2 col-xs-3">
-						<i className="devicon devicon-react-original center-block" title="React.js"></i>
+						<i className="devicon devicon-html5-plain center-block" title="HTML"></i>
+					</div>
+					<div className="col-sm-2 col-xs-3">
+						<i className="devicon devicon-css3-plain center-block" title="CSS"></i>
+					</div>
+					<div className="col-sm-2 col-xs-3">
+						<i className="devicon devicon-sass-plain center-block" title="SASS"></i>
 					</div>
 					<div className="col-sm-2 col-xs-3">
 						<i className="devicon devicon-mysql-plain center-block" title="MySQL"></i>
